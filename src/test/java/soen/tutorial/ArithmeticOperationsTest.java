@@ -15,19 +15,20 @@ public class ArithmeticOperationsTest {
 		ArithmeticOperations operations = new ArithmeticOperations();
 		Integer actual = operations.addOrSub(2, 6);
 		Integer expected = 8;
-		assertEquals(expected, actual);
+		fail("must fail");
+
+// 		assertEquals(expected, actual);
 
 	}
-    @Test
-    public void testSub()
-    {
+//     @Test
+//     public void testSub()
+//     {
 
-        ArithmeticOperations operations = new ArithmeticOperations();
-        Integer actual = operations.addOrSub(6, 2);
-        Integer expected = 4;
-	fail("must fail");
+//         ArithmeticOperations operations = new ArithmeticOperations();
+//         Integer actual = operations.addOrSub(6, 2);
+//         Integer expected = 4;
 //         assertEquals(expected, actual);
 
-    }
+//     }
 
-}
+// }
